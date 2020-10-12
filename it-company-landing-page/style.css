@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .promo-background {
@@ -281,8 +282,71 @@ button:active, button:focus {
     border-bottom: 1px solid #E0E0E0;
 }
 
+.works__item {
+    max-width: 30%;
+}
+
 .works__img {
     display: inline-block;
     width: 350px;
     height: 300px;
+    margin-bottom: 30px;
+}
+
+.works__subtitle {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.works__subtitle_violet {
+    color: #4985FF;
+    margin-right: 5px;
+}
+
+.works__description {
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #999999;
+    margin-bottom: 30px;
+}
+
+.projects {
+    background: #F6F6F8;
+    padding: 100px 0 130px;
+}
+
+.projects__title {
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 5.3rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.projects__description {
+    max-width: 730px;
+    margin: auto;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.projects__img {
+    display: inline-block;
+    width: 255px;
+    height: 255px;
+}
+
+.projects__button {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
 }
