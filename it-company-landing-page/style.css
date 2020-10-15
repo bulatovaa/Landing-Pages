@@ -512,3 +512,78 @@ button:active, button:focus {
     text-align: center;
     color: #999999;
 }
+
+.footer {
+    background: #F6F6F8;
+    padding: 70px 0 30px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 70px;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("assets/images/icons/mail.svg");
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.footer__mail {
+    background: url("assets/images/icons/mail.svg");
+}
+
+.footer__phone {
+    background: url("assets/images/icons/phone.svg");
+}
+
+.footer__navigation {
+    background: url("assets/images/icons/navigation.svg");
+}
+
+.footer__item-title {
+    margin-bottom: 30px;
+}
+
+.footer__item {
+    margin-bottom: 20px;
+}
+
+.footer__link-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #999999;
+}
+
+.footer__link:hover {
+    color: black;
+}
+
+.footer__copyright {
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    text-align: center;
+    color: #999999;
+    margin-top: 30px;
+}
