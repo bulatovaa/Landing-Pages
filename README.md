@@ -1,2 +1,4 @@
 # Templates-on-Figma
-Here I'm practicing the layout for the Figma
+
+Links my complited works in gh-pages:
+1. https://bulatovaa.github.io/Templates-on-Figma/it-company-landing-page/
