@@ -1,4 +1,4 @@
-# Markup workouts
+# Landing Page
 
 Links my complited works in gh-pages:
 1. https://bulatovaa.github.io/Markup-workouts/it-company-landing-page/
